@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates:wght@100;200&family=Playfair+Display:ital,wght@0,900;1,900&family=Poppins:wght@200;400;500;600;700&family=Sofia&display=swap');
+body{
+    background-color: #ccc;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+.card{
+    display: flex;
+    width: 50%;
+    height: 400px;
+}
+.card .food{
+    width: 50%;
+}
+.card .food img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: block;
+}
+.form{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 70px;
+}
+input{
+   border: 1px solid rgb(243, 123, 143);
+   padding: 10px;
+   border-radius: 10px;
+}
+#button{
+    background: rgb(242, 123, 143);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    width: 55%;
+    border-radius: 10px;
+}
+#button a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+a{
+    color: rgb(243, 123, 143);
+    text-decoration: none;
+}
+#opacy{
+    position: relative;
+    bottom: 250px;
+    left: 85px;
+    color: #fff;
+    background: rgba(0,0,0,.7);
+    width: 50%;
+    padding: 7px;
+}
+span{
+    color: rgb(242, 123, 143);
+    font-family: Sofia , sans-serif;
+    letter-spacing: 10px;
+}
